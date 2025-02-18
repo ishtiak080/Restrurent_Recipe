@@ -1,0 +1,63 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+ body{
+    background-color: antiquewhite;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+ }
+ .full_body{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+ }
+img{
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 1075px;
+    border-radius: 10px;
+}
+.font_color_1{
+    color: rgb(90, 85, 85);
+}
+
+.font_color_2{
+    color: rgb(164, 83, 83);
+}
+.Preparation_time{
+    background-color: rgb(247, 242, 251);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table{
+    padding-left: 20px;
+}
+.line{
+    border-bottom: 1px solid #dddddd;
+}
